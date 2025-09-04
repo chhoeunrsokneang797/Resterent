@@ -1,0 +1,723 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/* ------------ Home page by: Sun Phanha --------- */
+#info-topbar {
+  height: 40px;
+}
+#homePage {
+  width: 100%;
+  height: 100vh;
+}
+#homePage::after {
+  width: 100%;
+  height: 100vh;
+  content: "";
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+#homePage img {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: -2;
+}
+.play-video i {
+  font-size: 70px;
+  color: yellow;
+}
+.Welcome-to-Restaurantly {
+  margin-top: 40vh;
+}
+@media (max-width: 768px) {
+  .homePage .info-top p {
+    font-size: 14px;
+    margin-left: 30px;
+  }
+  .homePage .info-top .swite-language {
+    display: none;
+  }
+  .homePage li {
+    text-align: center;
+  }
+  .Welcome-to-Restaurantly {
+    margin-top: 8vh;
+  }
+  .homePage .search {
+    width: 100%;
+  }
+  .about img {
+    width: 100% !;
+  }
+}
+/* ------------ About by: Sun Phanha ------------- */
+.about {
+  background: rgb(0, 0, 0, 0.6);
+  color: #fff;
+}
+.about-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+.about-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 4px 10px;
+}
+.about-title h1 {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  color: #cda45e;
+}
+.why-us {
+  background: #0c0b09;
+  color: #fff;
+}
+.why-us .card {
+  padding: 50px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.3s;
+  background: #1a1814;
+}
+.why-us .card:hover {
+  background: #494339;
+  transition: linear 1s;
+  color: white !important;
+}
+.why-us .card h3 {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #8d5900;
+}
+.why-us .card h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 20px 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+.why-us .card p {
+  color: #aaaaaa;
+  font-size: 15px;
+}
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 4px 10px;
+}
+.section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  color: #cda45e;
+}
+/* ------------End Of About by: Sun Phanha ------------- */
+
+/* ------------ Menu by: Sun Phanha -------------- */
+.menu {
+  background-color: #1a1814;
+  color: #fff;
+}
+.menu h2 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+.menu h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 4px 10px;
+}
+.menu h1 {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  color: #cda45e;
+}
+.menu .menu-status li {
+  display: inline-block;
+  cursor: pointer;
+}
+.menu .menu-status a {
+  padding: 0px 20px;
+}
+
+/* ------------ Specials by: Sok Neang ---------- */
+
+/* ----------- Events by: Sok Neang ------------- */
+
+/* ---------- Reservation by: Sok Neang ---------- */
+
+/* ----------- Testimonials by: Sok Neang ------- */
+
+/* ----------- Gallery by: Pang Souhea ------------ */
+.gallery {
+  font-family: "Open Sans", sans-serif;
+  background: #0c0b09;
+  color: #fff;
+}
+.gallery .gallery-item {
+  overflow: hidden;
+  border-right: 3px solid #454035;
+  border-bottom: 3px solid #454035;
+}
+.gallery .gallery-item img {
+  transition: all ease-in-out 0.4s;
+}
+.gallery .gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+/* ----------- Chefs by: Pang Souhea -------------- */
+
+.chefs {
+  font-family: "Open Sans", sans-serif;
+  background: #0c0b09;
+  color: #fff;
+}
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 4px 10px;
+}
+.chefs .member {
+  text-align: center;
+  margin-bottom: 20px;
+  background: #343a40;
+  position: relative;
+  overflow: hidden;
+}
+.chefs .member .member-info {
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+}
+.chefs .member .member-info-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  transition: bottom 0.4s;
+}
+.chefs .member .member-info-content h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #fff;
+}
+.chefs .member:hover.social {
+  bottom: 0;
+  transform: bottom ease-in-out 0.4s;
+}
+.chefs .member .member-info-content span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+.chefs .member .social {
+  position: absolute;
+  left: 0;
+  bottom: -38px;
+  right: 0;
+  height: 48px;
+  transition: bottom ease-in-out 0.4s;
+  text-align: center;
+}
+.chefs .member .social a {
+  transition: color 0.3s;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+}
+.chefs .member .social a:hover {
+  color: #cda45e;
+}
+.chefs .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+.chefs .member:hover .member-info {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.8) 20%,
+    rgba(0, 212, 255, 0) 100%
+  );
+  opacity: 1;
+  transition: 0.4s;
+}
+.chefs .member:hover .member-info-content {
+  bottom: 60px;
+  transition: bottom 0.4s;
+}
+.chefs .member:hover .social {
+  bottom: 0;
+  transition: bottom ease-in-out 0.4s;
+}
+
+/* ----------- Contact by: heng vibol ------------ */
+:root {
+  --primary: #cda45e;
+  --title: #0e0e0e;
+  --pharagraph: #212121;
+}
+/* ---------- Responsive all class container -------- */
+@media (min-width: 576px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+/* ------------ Header by: Sun Phanha ------------ */
+/* ------------ Specials by: Sok Neang ---------- */
+
+/* ----------- Events by: Sok Neang ------------- */
+
+/* ---------- Reservation by:Heng Vibol ---------- */
+.Book-Tabel {
+  background-color: #0e0e0e;
+  padding: 60px 0;
+}
+.Book-Tabel input {
+  background: transparent;
+  border-color: #cda45e;
+}
+.Book-Tabel textarea {
+  background: transparent;
+  border-color: #cda45e;
+}
+.Book-Tabel textarea::placeholder {
+  color: #5a5050;
+}
+.Book-Tabel input::placeholder {
+  color: #5a5050;
+}
+.Book-Tabel .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #bab3a6;
+}
+
+.Book-Tabel button {
+  background-color: #cda45e;
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 14px;
+  padding: 8px 20px;
+  border-radius: 50px;
+  border: solid #cda45e;
+  text-decoration: none;
+  transition: 0.3s background-color;
+}
+
+/* ----------- Testimonials  ------- */
+
+/*--------------------------------------------------------------
+# Gallery
+--------------------------------------------------------------*/
+.gallery .gallery-item {
+  overflow: hidden;
+  border-right: 3px solid #454035;
+  border-bottom: 3px solid #454035;
+}
+
+.gallery .gallery-item img {
+  transition: all ease-in-out 0.4s;
+}
+
+.gallery .gallery-item:hover img {
+  transform: scale(1.1);
+}
+/* ----------- Gallery by: Pang Souhea ------------ */
+.gallery {
+  font-family: "Open Sans", sans-serif;
+  background: #0c0b09;
+  color: #fff;
+}
+.gallery .gallery-item {
+  overflow: hidden;
+  border-right: 3px solid #454035;
+  border-bottom: 3px solid #454035;
+}
+.gallery .gallery-item img {
+  transition: all ease-in-out 0.4s;
+}
+.gallery .gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+/* ----------- Chefs by: Pang Souhea -------------- */
+
+.chefs {
+  font-family: "Open Sans", sans-serif;
+  background: #0c0b09;
+  color: #fff;
+}
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 4px 10px;
+}
+.chefs .member {
+  text-align: center;
+  margin-bottom: 20px;
+  background: #343a40;
+  position: relative;
+  overflow: hidden;
+}
+.chefs .member .member-info {
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+}
+.chefs .member .member-info-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  transition: bottom 0.4s;
+}
+.chefs .member .member-info-content h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #fff;
+}
+.chefs .member:hover.social {
+  bottom: 0;
+  transform: bottom ease-in-out 0.4s;
+}
+.chefs .member .member-info-content span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+.chefs .member .social {
+  position: absolute;
+  left: 0;
+  bottom: -38px;
+  right: 0;
+  height: 48px;
+  transition: bottom ease-in-out 0.4s;
+  text-align: center;
+}
+.chefs .member .social a {
+  transition: color 0.3s;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+}
+.chefs .member .social a:hover {
+  color: #cda45e;
+}
+.chefs .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+.chefs .member:hover .member-info {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.8) 20%,
+    rgba(0, 212, 255, 0) 100%
+  );
+  opacity: 1;
+  transition: 0.4s;
+}
+.chefs .member:hover .member-info-content {
+  bottom: 60px;
+  transition: bottom 0.4s;
+}
+.chefs .member:hover .social {
+  bottom: 0;
+  transition: bottom ease-in-out 0.4s;
+}
+
+/* ----------- Contact by: heng vibol ------------ */
+.contact {
+  background-color: #0e0e0e;
+  padding: 60px 0;
+}
+.section-title {
+  padding-top: 50px;
+}
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  /* line-height: 1px; */
+  margin: 0 0 5px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+.section-title p {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  color: #cda45e;
+}
+.contact .info {
+  width: 100%;
+}
+.contact .info i {
+  font-size: 20px;
+  color: #ffffff;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #cda45e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.contact .info .open-hours,
+.contact .info .email,
+.contact .info .phone {
+  margin-top: 30px;
+}
+.contact .info h4 {
+  color: #ffffff;
+  padding: 0 0 0 60px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-family: "Poppins", sans-serif;
+}
+.contact input {
+  background: transparent;
+  border-color: #cda45e;
+}
+.contact textarea {
+  background: transparent;
+  border-color: #cda45e;
+}
+.contact textarea::placeholder {
+  color: #5a5050;
+}
+.contact input::placeholder {
+  color: #5a5050;
+}
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #bab3a6;
+}
+
+.contact button {
+  background-color: #cda45e;
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 14px;
+  padding: 8px 20px;
+  border-radius: 50px;
+  border: solid #cda45e;
+  text-decoration: none;
+  transition: 0.3s background-color;
+}
+
+/* ----------- Footer by: heng vibol ------------- */
+.footer-top {
+  padding-top: 50px;
+  border-top: 1px solid #37332a;
+  background-color: #0c0b09;
+  border-bottom: 1px solid #37332a;
+  padding: 60px 0 30px 0;
+}
+.footer-top .footer-info h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+.footer-top .footer-info p {
+  padding: 12px 0;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Playfair Display", serif;
+  color: #fff;
+}
+.footer-top .social-link i {
+  font-size: 14px;
+  color: #ffffff;
+  margin-left: 10px;
+  float: left;
+  width: 35px;
+  height: 35px;
+  background: #37332a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.footer-top .social-link i:hover {
+  background: #cda45e;
+  color: #fff;
+  text-decoration: none;
+}
+.footer-top h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  padding-bottom: 12px;
+  font-family: "Playfair Display", serif;
+}
+.footer-top .footer-link i {
+  color: #cda45e;
+}
+.footer-top .footer-link ul li {
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  text-decoration-line: none;
+}
+.footer-top .footer-link ul a {
+  color: #fff;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+}
+.footer-top .footer-link ul a:hover {
+  color: #cda45e;
+}
+.footer-top .footer-links ul a:hover {
+  color: #cda45e;
+}
+.footer-top .footer-services ul li {
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  text-decoration-line: none;
+}
+.footer-top .footer-services ul a {
+  color: #fff;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+}
+.footer-top .footer-services ul a:hover {
+  color: #cda45e;
+}
+.footer-top .footer-services i {
+  color: #cda45e;
+}
+.footer-top .footer-newsletter p {
+  color: #ffffff;
+}
+.footer-top .footer-newsletter form {
+  margin-top: 30px;
+  background: #28251f;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  border: 1px solid #454035;
+}
+.footer-top .footer-newsletter form input[type="email"] {
+  border: 0;
+  padding: 4px;
+  width: calc(100% - 110px);
+  background: #28251f;
+  color: white;
+}
+
+.footer-top .footer-newsletter form input[type="submit"] {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  bottom: -1px;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px 2px 20px;
+  background: #cda45e;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+}
+
+.footer-top .footer-newsletter form input[type="submit"]:hover {
+  background: #d3af71;
+}
+.copyright {
+  padding-top: 50px;
+  background-color: #0c0b09;
+  padding: 25px 0 30px 0;
+}
+.copyright .copyright-info {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 30px;
+}
+.copyright .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
+.copyright .credits a {
+  color: #d3af71;
+}
